@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SampleArchitctureComponents</string>
+    <string name="main_intro">Hey there! This is a simple application showing how to use the Architecture Components for Android. Hope you enjoy it!</string>
 </resources>

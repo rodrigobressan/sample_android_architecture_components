@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
 
+    <TextView
+        android:text="@string/main_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_main_lifecycle"
+        android:layout_marginTop="32dp"
+        android:text="Lifecycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_main_viewmodel"
+        android:text="View Model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
