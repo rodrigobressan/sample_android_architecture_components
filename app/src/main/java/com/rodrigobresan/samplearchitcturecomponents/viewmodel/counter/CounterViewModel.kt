@@ -1,4 +1,4 @@
-package com.rodrigobresan.samplearchitcturecomponents.viewmodel
+package com.rodrigobresan.samplearchitcturecomponents.viewmodel.counter
 
 import android.arch.lifecycle.ViewModel
 

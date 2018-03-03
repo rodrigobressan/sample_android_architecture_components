@@ -1,4 +1,4 @@
-package com.rodrigobresan.samplearchitcturecomponents.viewmodel
+package com.rodrigobresan.samplearchitcturecomponents.viewmodel.counter
 
 import android.arch.lifecycle.ViewModelProviders
 import android.content.Context
@@ -8,12 +8,12 @@ import android.support.v7.app.AppCompatActivity
 import com.rodrigobresan.samplearchitcturecomponents.R
 import kotlinx.android.synthetic.main.activity_view_model.*
 
-class ViewModelActivity : AppCompatActivity() {
+class CounterActivity : AppCompatActivity() {
 
 
     companion object {
         fun provideIntent(context: Context) : Intent {
-            val intent = Intent(context, ViewModelActivity::class.java)
+            val intent = Intent(context, CounterActivity::class.java)
             return intent
         }
     }

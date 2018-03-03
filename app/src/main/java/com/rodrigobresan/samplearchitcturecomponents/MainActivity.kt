@@ -4,7 +4,8 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.rodrigobresan.samplearchitcturecomponents.lifecycle.LifecycleSampleActivity
-import com.rodrigobresan.samplearchitcturecomponents.viewmodel.ViewModelActivity
+import com.rodrigobresan.samplearchitcturecomponents.viewmodel.counter.CounterActivity
+import com.rodrigobresan.samplearchitcturecomponents.viewmodel.news.NewsActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -15,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btn_main_lifecycle.setOnClickListener { openActivity(LifecycleSampleActivity.provideIntent(this)) }
-        btn_main_viewmodel.setOnClickListener { openActivity(ViewModelActivity.provideIntent(this)) }
+        btn_main_viewmodel.setOnClickListener { openActivity(NewsActivity.provideIntent(this)) }
     }
 
     private fun openActivity(intent: Intent) {
