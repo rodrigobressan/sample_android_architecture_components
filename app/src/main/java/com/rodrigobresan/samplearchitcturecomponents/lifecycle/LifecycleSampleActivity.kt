@@ -12,5 +12,6 @@ class LifecycleSampleActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_main)
         lifecycle.addObserver(LifecycleAwareLogging())
+        lifecycle.addObserver(MusicObserver(this))
     }
 }
