@@ -1,6 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.rodrigobresan.samplearchitcturecomponents">
 
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,6 +21,7 @@
         <activity android:name=".lifecycle.LifecycleSampleActivity" />
         <activity android:name=".viewmodel.counter.CounterActivity" />
         <activity android:name=".viewmodel.news.NewsActivity" />
+        <activity android:name=".android_viewmodel.WifiListActivity" />
 
     </application>
 </manifest>

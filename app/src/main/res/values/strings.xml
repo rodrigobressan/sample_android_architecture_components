@@ -3,4 +3,5 @@
     <string name="main_intro">Hey there! This is a simple application showing how to use the Architecture Components for Android. Hope you enjoy it!</string>
     <string name="sample_text_item_article_description">Here goes the article description. Lorem ipsum dolor sit amet...</string>
     <string name="sample_text_item_article_title">Here goes the title of the article</string>
+    <string name="sample_text_wifi_name">Wi-Fi name</string>
 </resources>

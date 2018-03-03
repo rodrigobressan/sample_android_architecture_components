@@ -22,4 +22,10 @@
         android:text="View Model"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_main_android_viewmodel"
+        android:text="Android View Model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
