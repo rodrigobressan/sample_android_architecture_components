@@ -2,36 +2,43 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="16dp">
 
     <TextView
-        android:text="@string/main_intro"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="@string/main_intro" />
 
     <Button
-        android:layout_marginTop="32dp"
         android:id="@+id/btn_main_lifecycle"
-        android:text="Lifecycle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Lifecycle" />
 
     <Button
         android:id="@+id/btn_main_viewmodel"
-        android:text="View Model"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="View Model" />
 
     <Button
         android:id="@+id/btn_main_android_viewmodel"
-        android:text="Android View Model"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Android View Model" />
 
     <Button
         android:id="@+id/btn_main_livedata"
-        android:text="Live Data"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Live Data" />
+
+    <Button
+        android:id="@+id/btn_main_transformations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transformations" />
+
 </LinearLayout>

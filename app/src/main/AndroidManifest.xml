@@ -24,6 +24,8 @@
         <activity android:name=".android_viewmodel.WifiListActivity" />
         <activity android:name=".viewmodel.counter.IncrementActivity" />
         <activity android:name=".livedata.sensor.SensorActivity" />
+        <activity android:name=".transformation.TeamActivity" />
+        <activity android:name=".transformation.TeamDetailActivity" />
 
     </application>
 </manifest>
