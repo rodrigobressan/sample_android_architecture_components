@@ -1,22 +1,20 @@
 package com.rodrigobresan.samplearchitcturecomponents.transformation
 
-import android.arch.lifecycle.LiveData
-import android.arch.lifecycle.MutableLiveData
-import android.arch.lifecycle.Transformations
-import android.arch.lifecycle.ViewModel
+import android.arch.lifecycle.*
 
 class TeamViewModel : ViewModel() {
 
     private var teams : MutableLiveData<List<Team>> = MutableLiveData()
     private var teamId : MutableLiveData<Long> = MutableLiveData()
 
-    private var team: LiveData<Team>
+    private var team: MediatorLiveData<Team> = MediatorLiveData()
 
     init {
         teams.value = TeamRepository.getTeams()
 
-        team = Transformations.switchMap(teamId) {
-            TeamRepository.getTeamLive(it)
+        team.addSource(teamId) {
+            team.value = TeamRepository.getTeam(it!!)
+            team.removeSource(teamId)
         }
     }
 
