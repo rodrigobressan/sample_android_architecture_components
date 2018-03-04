@@ -18,6 +18,7 @@ class IncrementActivity : AppCompatActivity() {
             return intent
         }
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
