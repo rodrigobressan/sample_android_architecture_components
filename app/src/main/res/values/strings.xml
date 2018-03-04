@@ -5,4 +5,5 @@
     <string name="sample_text_item_article_title">Here goes the title of the article</string>
     <string name="sample_text_wifi_name">Wi-Fi name</string>
     <string name="sample_item_team">Manchester</string>
+    <string name="sample_text_restaurant_name">Restaurant name</string>
 </resources>

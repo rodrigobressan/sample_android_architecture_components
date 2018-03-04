@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.rodrigobresan.samplearchitcturecomponents">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
@@ -26,6 +27,7 @@
         <activity android:name=".livedata.sensor.SensorActivity" />
         <activity android:name=".transformation.TeamActivity" />
         <activity android:name=".transformation.TeamDetailActivity" />
+        <activity android:name=".livedata.retrofit.RestaurantsActivity" />
 
     </application>
 </manifest>
