@@ -28,4 +28,10 @@
         android:text="Android View Model"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_main_livedata"
+        android:text="Live Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
