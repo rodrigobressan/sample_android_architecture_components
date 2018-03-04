@@ -20,7 +20,7 @@
 
         <activity android:name=".lifecycle.LifecycleSampleActivity" />
         <activity android:name=".viewmodel.counter.CounterActivity" />
-        <activity android:name=".viewmodel.news.NewsActivity" />
+        <activity android:name=".viewmodel.news.FeedActivity" />
         <activity android:name=".android_viewmodel.WifiListActivity" />
         <activity android:name=".viewmodel.counter.IncrementActivity" />
 

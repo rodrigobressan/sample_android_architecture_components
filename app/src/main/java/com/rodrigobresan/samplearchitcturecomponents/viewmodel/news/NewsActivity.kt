@@ -12,8 +12,8 @@ import kotlinx.android.synthetic.main.activity_news.*
 class NewsActivity : AppCompatActivity() {
 
     companion object {
-        fun provideIntent(context: Context) : Intent {
-            var intent = Intent(context, NewsActivity::class.java)
+        fun provideIntent(context: Context): Intent {
+            var intent = Intent(context, FeedActivity::class.java)
             return intent
         }
     }
